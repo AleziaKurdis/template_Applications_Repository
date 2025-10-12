@@ -1,0 +1,22 @@
+{
+   "version":2,
+   "title":"Overte Community Apps",
+   "baseApiUrl":"https://more.overte.org/applications",
+   "baseRepositoryUrl":"https://more.overte.org",
+   "applicationList":[
+      {
+         "appActive":true,
+         "appBaseDirectory":"domainMapper",
+         "appName":"Domain Mapper",
+         "appDescription":"Generate a 3D miniature representation of your domain's zones. Useful if you have many 'Places' in your domain and are trying to visualize where you can add new ones. The domain overview  can also be used in parallel with the 'Create' application to help you adjust kilometers wide zones. This tool also displays where are the avatars in the domain. (It refreshes every 5 seconds.)",
+         "appScriptVersions":{
+            "Stable":"app-domainMapper.js"
+         },
+         "appIcon":"icon_inactive_white.png",
+         "appAuthor":"Overte",
+         "appAgeMaturity":"EVERYONE",
+         "appCategory":"UTILITY",
+         "appHomeUrl":"https://more.overte.org"
+      }
+   ]
+}

@@ -1,0 +1,65 @@
+<!--
+//  index.html
+//
+//  Created by Armored Dragon, June 2025.
+//  Copyright 2025 Overte e.V.
+//
+//  Distributed under the Apache License, Version 2.0.
+//  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Applications Repository</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <br><img src="logo.png" style="width: 250px;"><br>
+    </div>
+	<div class="center-align">
+		<h1>Applications Repository</h1>
+		<p>This repository stores your optional applications for Overte.</p>
+
+		<h2>Rules to observe:</h2>
+		<ol>
+			<li>
+				Avoid <b>spaces</b> and <b>special characters</b> in your <b>folders</b> and <b>file names</b>.
+				<br>
+				<span class="important">(Stay with: "a-z", "A-Z", "0-9", "-", "_", ".")</span>
+			</li>
+			<li>
+				Add your application in a folder under the <b>/applications</b> directory.
+				<br>
+			</li>
+			<li>You <b>must</b> add your application to the <b>metadata.json</b> located in the <b>/applications</b> directory.
+				file.
+				You can generate a metadata.json file automatically by using the <a
+					href="metadata_generator.html">Metadata Generator</a> web
+				tool.
+			</li>
+		</ol>
+
+		<h2>Review your code:</h2>
+		<p>
+			This repository is used in production. Making changes to this repository <u>will affect everyone using the
+				<b>MORE</b> app in real time</u>.
+			It is important to express caution, and to be thorough with your review.
+		</p>
+		<ol>
+			<li>Test the application in <b>Overte</b>.</li>
+			<li>Ensure that metadata.json is valid.</li>
+			<li>Ensure the application works as expected.</li>
+			<li>Test the <b>MORE</b> application <u>before</u> merging the pull request, <u>and after</u> merging the
+				pull
+				request.
+			</li>
+		</ol>
+	</div>
+</body>
+
+</html>
